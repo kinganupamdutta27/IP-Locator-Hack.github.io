@@ -138,7 +138,7 @@ align-items: center !important;
     background-color: rgb(238, 197, 197);
     padding: 20px;
     text-align: center;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
