@@ -3,14 +3,6 @@
     "development"
   ],
   "hints": {
-    "no-inline-styles": "off",
-    "compat-api/css": [
-      "default",
-      {
-        "ignore": [
-          "scrollbar-color"
-        ]
-      }
-    ]
+    "disown-opener": "off"
   }
 }

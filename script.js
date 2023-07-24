@@ -129,3 +129,13 @@ const ip2 = async(ipad)=>{
         // Handle the error
     });
 */
+
+/*------------Copy Right Auto Year---------------------------------*/
+const d = new Date();
+let yr = d.getFullYear();
+console.log(yr)
+document.getElementById('spyr').textContent = yr
+// Disable the inspect context menu
+document.addEventListener('contextmenu', function (event) {
+    event.preventDefault();
+});
